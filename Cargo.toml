@@ -32,6 +32,10 @@ name = "download_weights"
 path = "src/bin/download_weights.rs"
 required-features = ["hf-download"]
 
+[[example]]
+name = "benchmark"
+path = "examples/benchmark.rs"
+
 [features]
 default = ["ndarray"]
 
